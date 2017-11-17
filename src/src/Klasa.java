@@ -2,7 +2,8 @@ public class Klasa {
     public Klasa() {
     }
 
-    public void show() {
+    public int show() {
         System.out.print("show something!!!!!!!!!!!!!!!1");
+        return 1;
     }
 }

@@ -17,6 +17,7 @@ public class Main {
         System.out.println("Hello World!");
         System.out.println("Hello World!");
         Klasa klasa=new Klasa();
-        klasa.show();
+        if(klasa.show()==1)
+            System.out.println("wyswietlono zmiana bee");
     }
 }
